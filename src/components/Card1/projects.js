@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
-import Sheko1 from '../../components/assests/WhatsApp Image 2024-07-28 at 6.59.04 PM.jpeg';
+import Sheko1 from '../../components/assests/ecomerse.jpeg';
+import Sheko2 from '../../components/assests/Sushi.jpeg';
+import Sheko3 from '../../components/assests/calcloter.jpeg';
+
+
 import './projects.css';
-import redStor from '../../components/assests/Sum-photo-1089168.jpeg';
+import redStor from '../../components/assests/red stor.avif';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,33 +16,27 @@ const Projects = () => {
 
   const cardData = [
     {
-      img: Sheko1,
-      title: "Abdel-Rhman Mohamed",
-      text: "Frontend Developer",
-      link: "https://s7eko.github.io/Food/"
+      img: Sheko2,
+      title: "Food-Fish",
+      text: "First-commit",
+      link: "https://food-fish-nine.vercel.app/"
     },
     {
-      img: Sheko1,
-      title: "Abdel-Rhman Mohamed",
-      text: "Frontend Developer",
-      link: "https://s7eko.github.io/Food/"
+      img: Sheko3,
+      title: "Calculator",
+      text: "First-commit",
+      link: "https://calculator-phi-six-10.vercel.app/"
     },
     {
-      img: Sheko1,
-      title: "Abdel-Rhman Mohamed",
-      text: "Frontend Developer",
-      link: "https://s7eko.github.io/Food/"
-    },
-    {
-      img: redStor,
-      title: "Abdel-Rhman Mohamed",
-      text: "Frontend Developer",
-      link: "https://s7eko.github.io/Red-Stor-design/"
+      img:Sheko1,
+      title: "Ecoemmerc",
+      text: "Ecoemmerc-Shop",
+      link: "https://s7eko.github.io/Ecoemmerc/"
     },
     {
       img: redStor,
-      title: "Abdel-Rhman Mohamed",
-      text: "Frontend Developer",
+      title: "Red-Stor",
+      text: "Red-Stor-ecommerce",
       link: "https://s7eko.github.io/Red-Stor-design/"
     }
     // Add more card data here if needed

@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import './slider.css';
-import Sheko1 from '../../components/assests/WhatsApp Image 2024-07-28 at 6.59.04 PM.jpeg'; // تأكد من صحة المسار
+import Sheko1 from '../../components/assests/WhatsApp Image 2024-07-28 at 6.59.04 PM.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Typed from 'typed.js';
+import resume from '../../components/assests/CV.pdf';
 
 const Slider = () => {
   useEffect(() => {
     const typed = new Typed(".multiple-text", {
       strings: ["Web developer", "FrontEnd (:", "React js"],
-      typeSpeed: 100, // سرعة الكتابة
-      backSpeed: 100, // سرعة الحذف
-      loop: true // تكرار التأثير
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
     });
 
-    // تنظيف عند إلغاء التثبيت
     return () => {
       typed.destroy();
     };
@@ -42,7 +42,7 @@ const Slider = () => {
                   <FontAwesomeIcon icon={faGithub} className="fa" />
                 </a>
               </div>
-              <a href='/AbdelRhman Mohamed.pdf' download className='btn btn-primary'>Resume</a>
+              <a href={resume} download className='btn btn-primary'>Resume</a>
             </div>
             <div className='slider-img'>
               <img
@@ -53,7 +53,6 @@ const Slider = () => {
             </div>
           </div>
         </div>
-        {/* Add more carousel items here if needed */}
       </div>
     </div>
   );

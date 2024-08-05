@@ -87,8 +87,8 @@ body {
     height: 500px;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid #39ff14;
-    box-shadow: 0 0 15px rgba(173, 230, 187, 0.7);
+    border: 5px solid #3c3f3c;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 
     transition: transform 0.3s ease;
     margin-bottom: 20px;
