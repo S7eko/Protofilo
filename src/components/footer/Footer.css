@@ -1,0 +1,21 @@
+
+  .text-center {
+    font-size: 18px;
+  }
+  /* Dark mode styles */
+  .dark-mode footer {
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  .dark-mode .text-dark {
+    color: #e0e0e0 !important; /* Ensure light text color in dark mode */
+  }
+  
+  .dark-mode .btn-link {
+    color: #e0e0e0; /* Light color for buttons in dark mode */
+  }
+  
+  .dark-mode .btn-link:hover {
+    color: #adb5bd; /* Example hover color for dark mode */
+  }
+  

@@ -1,0 +1,35 @@
+/* darkmode.css */
+body.dark-mode {
+    background-color: #121212; /* خلفية مظلمة */
+    color: #e0e0e0; /* لون النص الفاتح */
+  }
+  
+  .navbar-dark {
+    background-color: #333; /* لون الخلفية للملاحة */
+  }
+  
+  .header.dark {
+    background-color: #333;
+  }
+  
+  .btn-dark-mode-toggle {
+    position: fixed;
+    /* bottom: 20px; */
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/*   
+  .btn-dark-mode-toggle:hover {
+    background-color: #777;
+  } */
+  
+  .btn-dark-mode-toggle i {
+    font-size: 24px;
+  }
+  
+  

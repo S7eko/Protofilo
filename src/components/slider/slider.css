@@ -1,0 +1,209 @@
+body {
+    height: 100vh;
+}
+
+.carousel {
+    height: 100vh;
+    color: #fff;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.multiple-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.slider .slider-text {
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0a0a0a;
+}
+
+.slider-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.slider-text p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.slider-text .slider-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    justify-content: center;
+    font-weight: 600;
+    color: #050505;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.slider-text .slider-icons i {
+    transition: color 0.3s ease;
+}
+
+.slider-text .slider-icons .fa-facebook:hover {
+    color: #3072f5;
+}
+
+.slider-text .slider-icons .fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.slider-text .slider-icons .fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.slider-text .slider-icons .fa-github:hover {
+    color: #eb5f5f;
+}
+
+.slider-img {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid #39ff14;
+    box-shadow: 0 0 15px rgba(173, 230, 187, 0.7);
+
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.slider-img:hover img {
+    transform: scale(1.09);
+}
+
+/* Media query for screens between 768px and 1024px */
+@media screen and (min-width: 768px) {
+    .slider {
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider .slider-text {
+        max-width: 45%;
+        padding: 20px;
+    }
+
+    .slider-text h1 {
+        font-size: 36px;
+    }
+
+    .slider-text p {
+        font-size: 20px;
+    }
+
+    .slider-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Media query for screens up to 768px */
+@media screen and (max-width: 768px) {
+    .slider {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .slider .slider-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .slider-text h1 {
+        font-size: 30px;
+    }
+
+    .slider-text p {
+        font-size: 20px;
+    }
+
+    .slider-text .slider-icons {
+        justify-content: center;
+    }
+
+    .slider-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* dark mode */
+/* slider.css */
+
+.carousel.dark-mode {
+    background-color: #121212; /* مثال على خلفية مظلمة */
+    color: #e0e0e0; /* مثال على لون النص الفاتح */
+  }
+  
+  .slider-text h1 {
+    color: inherit;
+  }
+  
+  .slider-icons .fa {
+    color: inherit;
+  }
+  
+  /* إضافة الأنماط اللازمة للوضع المظلم */
+  /* dark mode */
+  .dark-mode .slider-text {
+    color: #e0e0e0; /* Light color for text */
+  }
+  
+  .dark-mode .carousel {
+    background-color: #121212; /* Dark background */
+  }
+  
+  .dark-mode .slider-icons .fa {
+    color: #e0e0e0; /* Light color for icons */
+  }
+  
+
+  
+  .dark-mode .btn-primary:hover {
+    background-color: #666; /* Darker background on hover */
+  }
+  .dark-mode .multiple-text{
+    color: #e0e0e0;
+  }

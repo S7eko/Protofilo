@@ -1,0 +1,29 @@
+.container .about-title{
+    text-decoration: underline dotted rgb(14, 13, 13) 5px ;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.about-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+p{
+    /* text-align: center; */
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+/* darkmode */
+.dark-mode .about-title {
+    color: #e0e0e0; /* Light color for dark mode */
+  }
+  
+  .dark-mode .about-text p {
+    color: #fff; /* Light color for dark mode */
+  }

@@ -1,0 +1,89 @@
+.container .text-center{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    font-size: 22px;
+}
+.form-control-1{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+.form-control{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Sheko-1{
+    height: 50px;
+    border: none;
+    background-color: #1495ff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    font-size: 22px;
+    
+ 
+}
+.Sheko-1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+/* .mb-3 input{
+    background-color: #fff;
+    color: #000;
+}
+.mb-3 textarea{
+    background-color: #fff;
+    color: #000;
+} */
+/* darkmode */
+/* darkmode.css */
+body.dark-mode .container {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode .form-control-1{
+    background-color: #333;
+    color: #fff;
+}
+body.dark-mode .form-control {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .btn-container .Sheko-1 {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Add other dark mode styles as needed */
