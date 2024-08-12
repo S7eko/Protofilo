@@ -13,3 +13,23 @@
     height: 50px;
 
 }
+.btn-dark-mode-toggle {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-dark-mode-toggle:hover i {
+  color: rgb(12, 12, 12);
+}
+
+.header.dark .btn-dark-mode-toggle:hover i {
+  color: gold;
+}
+
+.btn-dark-mode-toggle i {
+  font-size: 24px;
+}

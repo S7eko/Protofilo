@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Sheko1 from '../../components/assests/ecomerse.jpeg';
 import Sheko2 from '../../components/assests/Sushi.jpeg';
 import Sheko3 from '../../components/assests/calcloter.jpeg';
+import Sheko4 from '../../components/assests/nexcent.png';
 
 
 import './projects.css';
@@ -38,7 +39,14 @@ const Projects = () => {
       title: "Red-Stor",
       text: "Red-Stor-ecommerce",
       link: "https://s7eko.github.io/Red-Stor-design/"
+    },
+    {
+      img: Sheko4,
+      title: "Nexcent",
+      text: "Nexcent-ecommerce",
+      link: "https://nexcent-indol.vercel.app/"
     }
+
     // Add more card data here if needed
   ];
 

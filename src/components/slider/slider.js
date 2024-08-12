@@ -38,7 +38,7 @@ const Slider = () => {
                 <a href='https://www.linkedin.com/in/abdelrhman-mohamed-8b021a1b4/' target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} className="fa" />
                 </a>
-                <a href='https://github.com/AbdelRhmanMohamed' target="_blank" rel="noopener noreferrer">
+                <a href='https://github.com/S7eko' target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub} className="fa" />
                 </a>
               </div>

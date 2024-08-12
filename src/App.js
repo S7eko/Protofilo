@@ -10,25 +10,8 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    // Check and apply dark mode from localStorage
-    const savedDarkMode = localStorage.getItem('isDarkMode') === 'true';
-    setIsDarkMode(savedDarkMode);
-    if (savedDarkMode) {
-      document.body.classList.add('dark-mode');
-    }
-  }, []);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode((prevMode) => {
-      const newMode = !prevMode;
-      document.body.classList.toggle('dark-mode', newMode);
-      localStorage.setItem('isDarkMode', JSON.stringify(newMode));
-      return newMode;
-    });
-  };
 
   return (
     <div className="App">
