@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc95d746.css",
-    "main.js": "/static/js/main.c8665a8f.js",
+    "main.css": "/static/css/main.371f2e3e.css",
+    "main.js": "/static/js/main.8ea72872.js",
     "static/js/453.44dd3ce7.chunk.js": "/static/js/453.44dd3ce7.chunk.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/WhatsApp Image 2024-07-28 at 6.59.04 PM.jpeg": "/static/media/WhatsApp Image 2024-07-28 at 6.59.04 PM.ed55ccaad8cb09e1178c.jpeg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/nexcent.png": "/static/media/nexcent.0084fabdd9d415527bd9.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/CV.pdf": "/static/media/CV.bd9dbd38803740cd387b.pdf",
     "static/media/calcloter.jpeg": "/static/media/calcloter.d795326823d72bb48634.jpeg",
@@ -17,12 +18,12 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/index.html",
-    "main.bc95d746.css.map": "/static/css/main.bc95d746.css.map",
-    "main.c8665a8f.js.map": "/static/js/main.c8665a8f.js.map",
+    "main.371f2e3e.css.map": "/static/css/main.371f2e3e.css.map",
+    "main.8ea72872.js.map": "/static/js/main.8ea72872.js.map",
     "453.44dd3ce7.chunk.js.map": "/static/js/453.44dd3ce7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc95d746.css",
-    "static/js/main.c8665a8f.js"
+    "static/css/main.371f2e3e.css",
+    "static/js/main.8ea72872.js"
   ]
 }
