@@ -19,7 +19,7 @@ const Header = () => {
     <div className={`header ${isDarkMode ? 'dark' : ''}`}>
       <nav className={`navbar bg-body-tertiary fixed-top ${isDarkMode ? 'navbar-dark bg-dark' : ''}`} data-bs-theme={isDarkMode ? 'dark' : 'light'}>
         <div className="container-fluid">
-          <a className="navbar-brand">Abdel-Rhman Mohamed</a>
+          <a href="#" className="navbar-brand">Abdel-Rhman Mohamed</a>
           <button onClick={handleToggleDarkMode} className="btn btn-dark-mode-toggle">
             <i id="darkBtn" className={`fas ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>
           </button>
