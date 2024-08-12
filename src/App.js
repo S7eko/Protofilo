@@ -28,3 +28,9 @@ function App() {
 }
 
 export default App;
+/**
+    "homepage": "https://S7eko.github.io/Protofilo",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+ * 
+ */
